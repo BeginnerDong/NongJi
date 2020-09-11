@@ -1,0 +1,142 @@
+/* #ifndef APP-NVUE */
+/* 设置全局样式 */
+/* (1) 页面高度100%,默认字体28rpx,默认行高1.4,背景颜色 */
+page{
+	/* height: 100%; */
+	font-size: 28rpx;
+	line-height: 1.4;
+	color: #222;
+	/* background: #f5f5f5; */
+}
+
+button{border: 0;padding: 0;margin: 0;}
+button:after{border: 0;}
+
+/* (2) 图片默认100%宽度 */
+image{  width: 100%;height: 100%;box-sizing: border-box; display: block;}
+::-webkit-scrollbar{
+	display: none;
+}
+uni-button:after{border: 0;}
+
+
+.w-70{width: 70%;}
+.w-90{width: 90%;}
+.h160{height: 160rpx;}
+.wh126{width: 126rpx;height: 126rpx;}
+.h126{height: 126rpx;}
+.o5{background-color: rgba(255,255,255,0.5);}
+
+.f5-2{height: 20rpx;background-color: #f5f5f5;}
+
+.px-25{padding-left: 25rpx;padding-right: 25rpx;}
+.mx-25{margin-left: 25rpx;margin-right: 25rpx;}
+
+
+/* #endif */
+/* 主色调 */
+/* 主背景颜色（橙色）*/
+.Mgb{background-color: #5895f0;}
+.bg-f5{background-color: #f5f5f5;}
+.bg-black{background: #000}
+/* 主点击背景颜色（淡橙色）*/
+
+/* 主字体颜色（橙色）*/
+.colorM{color: #5895f0;}
+.colorR{color: #ED1717;}
+.colorS{color: #738A9B;}
+
+.borderM{border: 1px solid #5895f0;}
+
+
+
+.f5Bj-H10{height: 10rpx; background: #f5f5f5;}
+.f5Bj-H20{ height: 20rpx; background: #f5f5f5;}
+.f5bj{background: #f5f5f5;}
+.whiteBj{background: #fff;}
+
+.price,.price1{ color: #ED1717;}
+.price::before{content: "￥";}
+.price1::before{content: "￥";font-size: 26rpx;}
+.priceY{ color: #ED1717;}
+.priceY::after{content: "/月";}
+.priceV{ color: #ED1717;}
+.priceV::before{content: "会员:";font-size: 22rpx;}
+.priceIcon{width: 28rpx;height: 28rpx;margin-right: 8rpx;}
+.priceF{ color: #ED1717;}
+.priceF::before{content: "积分:";font-size: 24rpx;}
+.priceM::after{content: "元/㎡";}
+.yuanJia{ color: #999; font-size: 24rpx; text-decoration: line-through; }
+.yuanJia::before{content: "￥";}
+
+/* 阴影 */
+.shadowM{box-shadow: 0 0 6rpx 0 rgba(0,0,0,0.15);}
+.shadowT{box-shadow: 0 -6rpx 6rpx 0 rgba(0,0,0,0.05);}
+
+/* 返回按钮 */
+.backBox{position: absolute;top: 0;left: 0;z-index: 100;height: 100rpx;}
+.back{width: 84rpx;height: 88rpx;}
+
+/* 按钮 */
+.btn80-c{line-height: 80rpx;border-radius: 40rpx;color: #fff;margin: 0 auto;text-align: center;line-height: 80rpx;font-size:32rpx}
+.btn80{line-height: 80rpx;border-radius: 10rpx;color: #fff;margin: 0 auto;text-align: center;line-height: 80rpx;font-size:32rpx}
+.btn60-c{line-height: 60rpx;border-radius: 30rpx;color: #fff;margin: 0 auto;text-align: center;line-height: 60rpx;font-size:24rpx}
+.btn60{line-height: 60rpx;border-radius: 10rpx;color: #fff;margin: 0 auto;text-align: center;line-height: 60rpx;font-size:24rpx}
+.btn66{line-height: 66rpx;border-radius: 10rpx;color: #fff;margin: 0 auto;text-align: center;line-height: 66rpx;font-size:24rpx}
+.btn44-c{line-height: 44rpx;background-color: #5895f0;border-radius: 22rpx;color: #fff;font-size: 26rpx;text-align: center;display: inline-block;padding: 0 25rpx;height: 44rpx;}
+
+
+/* 列表导航 */
+/* .list{display: flex;align-items: center;background-color: #fff;position: sticky;top: 0;z-index:999}
+.list .li{font-size: 28rpx;color: #888;padding: 30rpx 0;text-align: center;}
+.list .on{color: #5895f0;position: relative;}
+.list .on::before{content: '';width: 100%;height: 1px;position: absolute;bottom: 0;background-color: #5895f0;left: 0;} */
+
+
+/* 底部 */
+/* .footer{height: 100rpx;width:100%;position: fixed;bottom: 0;display: flex;justify-content: space-between;background-color: #fff;padding-bottom: 10rpx;box-sizing: content-box;z-index: 99;box-shadow: 0 0 10rpx 0 rgba(0,0,0,0.12);}
+.footer .item{width: 50%;display: flex;flex-direction: column;align-items: center;font-size: 22rpx;justify-content: center;color: #5B5B5B;}
+.footer .on{color: #5895f0;}
+.footer .item image{margin-bottom: 10rpx;width: 49rpx;height: 40rpx;margin-top: 10rpx;}
+.footer .item:nth-child(2) image{width: 39rpx;height: 46rpx;} */
+
+/* 搜索框 */
+/* input{font-size: 24rpx;flex: 1;padding-left: 20rpx;} */
+
+
+/* 优惠券 */
+
+
+
+/* 入口 */
+
+
+/* 表格 */
+/* .th,.tr,.th1,.tr1{display: flex;align-items: center;line-height: 1;border-bottom: 1px solid #e1e1e1;}
+.th{color: #999;}
+.td{width: 20%;text-align: center;padding: 20rpx 0;}
+.td:nth-child(1){width: 30%;text-align: left;}
+
+.th1{background-color: #FCF1EF;color: #666;}
+.td1{padding: 25rpx 0;text-align: center;width: 30%;}
+.td1:nth-child(1){border-right: 1px solid #e1e1e1;width: 70%;padding: 25rpx 20rpx;} */
+
+/* 扫一扫 */
+/* .sys{right: 0;bottom: 25%;width: 123rpx;height: 136rpx;position: fixed;} */
+
+
+/* 图标 */
+
+
+
+/* 标签 */
+
+
+/* 计数 */
+/* .jIcon1{width: 21rpx;height: 3rpx;}
+.jIcon2{width: 21rpx;height: 21rpx;}
+.count{border-radius: 8rpx;height: 52rpx;display: flex;align-items: center;justify-content: center;border: 1px solid #e1e1e1;width: 180rpx;}
+.countIcon{display: flex;align-items: center;justify-content: center;width: 52rpx;}
+.countNum{width: 76rpx;text-align: center;border-left: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;font-size: 28rpx;font-weight: normal;line-height: 52rpx;}
+.countIcon1{width: 18rpx;height: 4rpx;}
+.countIcon2{width: 20rpx;height: 20rpx;} */
