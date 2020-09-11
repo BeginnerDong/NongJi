@@ -3,12 +3,14 @@
 		{
 		    "path" : "pages/start/start",
 		    "style" : {
+				"navigationStyle":"custom",
 				"navigationBarTitleText": "农机互助宝"
 			}
 		}
 		,{
 			"path": "pages/index/index",
 			"style": {
+				"navigationStyle":"custom",
 				"navigationBarTitleText": "保单",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
@@ -16,12 +18,14 @@
         ,{
             "path" : "pages/detail/detail",
             "style" : {
+				"navigationStyle":"custom",
 				"navigationBarTitleText": "保单详情"
 			}
         }
         ,{
             "path" : "pages/clause/clause",
             "style" : {
+				"navigationStyle":"custom",
 				"navigationBarTitleText": "保险条款"
 			}
         }

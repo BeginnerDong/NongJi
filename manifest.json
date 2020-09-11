@@ -71,8 +71,9 @@
             "https" : false
         },
         "router" : {
-            "base" : "/wx/"
+            "base" : "./"
         },
-        "domain" : "https://www.local-scanner.com"
+        "domain" : "http://www.shannxinongjihuzhu.com/",
+        "template" : ""
     }
 }

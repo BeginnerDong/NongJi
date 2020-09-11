@@ -45,7 +45,7 @@
 
 <style scoped>
 page{height: 100%;overflow: hidden;}
-.logo{width: 181rpx;height: 206rpx;margin: 0 auto 0;}
-input{width: 560rpx;height: 80rpx;background-color: #fff;margin: 30% auto 50rpx;font-size: 26rpx;border-radius: 10rpx;box-sizing: border-box;text-align: center;}
+.logo{width: 181rpx;height: 206rpx;margin: 90rpx auto 0;}
+input{width: 560rpx;height: 80rpx;background-color: #fff;margin: 40% auto 50rpx;font-size: 26rpx;border-radius: 10rpx;box-sizing: border-box;text-align: center;}
 .btn80{width: 560rpx;}
 </style>

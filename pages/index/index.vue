@@ -1,7 +1,8 @@
 <template>
 	<view>
 		
-		<view class="b-e1 radius10 line-h mx-3 mt-3" v-for="(item,index) in mainData" :key="index">
+		<view class="b-e1 radius10 line-h mx-3 mt-3" v-if="mainData.length>0"
+		v-for="(item,index) in mainData" :key="index">
 			<view class="flex1 p-3">
 				<view class="font-30">农机互助宝</view>
 				<view class="flex color9 font-24"
@@ -29,6 +30,10 @@
 			</view>
 		</view>
 		
+		<view class="font-34 color9 py-5 text-c" v-show="totle==0">
+			未查询到您搜索的内容
+		</view>
+		
 	</view>
 </template>
 
@@ -40,7 +45,8 @@
 				is_show: false,
 				paginate:{},
 				mainData:[],
-				keywords:''
+				keywords:'',
+				totle:0
 			}
 		},
 		onLoad(options) {
@@ -74,6 +80,7 @@
 				const callback = (res)=>{
 					if(res.info.data.length>0){
 						self.mainData = res.info.data;
+						self.totle = res.info.totle;
 						for(var i=0; i<self.mainData.length; i++){
 							var time = new Date().getTime();
 							if(self.mainData[i].end_time>time){
