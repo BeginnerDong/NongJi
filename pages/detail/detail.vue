@@ -87,8 +87,7 @@
 		},
 		onLoad(options) {
 			const self = this;
-			// self.searchItem.id = options.id;
-			self.searchItem.id = 2;
+			self.searchItem.id = options.id;
 			self.$Utils.loadAll(['getMainData'], self);
 		},
 		methods: {
